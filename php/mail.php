@@ -5,7 +5,7 @@ $asunto = $_POST['subject'];
 $mensaje = $_POST['message'];
 
 
-$para = 'wilmercity93@gmail.com.com';
+$para = 'wilmercity93@gmail.com';
 $titulo = $asunto;
 $mensaje = $mensaje; 
 $cabeceras = 'From:'.$correo."\r\n" . //La direccion de correo desde donde supuestamente se envió
